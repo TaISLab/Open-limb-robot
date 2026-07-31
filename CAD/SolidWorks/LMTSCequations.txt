@@ -1,0 +1,14 @@
+﻿"Z"= 28
+"De"= 19
+"M" = "De" / ( "Z" + 2 )
+"Dp"= "M" * "Z"
+"e"= "M" * 3.1416 / 2
+"X" = 0
+"alpha"= 20
+"Din"= "Dp" - ( 2 * "M" * 1.25 )
+"a@dientes left"="alpha"
+"D3@dientes left"="Din"
+"D4@dientes left"="Dp"
+"18.75@dientes left"="De"
+"D16@dientes left"="alpha"
+"D5@dientes left"="e"-"X"
