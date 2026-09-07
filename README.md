@@ -8,6 +8,10 @@ This repository accompanies the paper:
 
 The central contribution is an actuation-space decomposition in which the two lateral wheel torques, expressed in a common-mode/differential basis, simultaneously drive the orbital motion and regulate the central normal force — orthogonally and without a dedicated force mechanism. The same compliant arms yield a closed-form estimate of the cylinder diameter from proprioception alone.
 
+## Demonstration video
+
+<video src="https://github.com/TaISLab/Open-limb-robot/raw/main/media/On-Limb-Orbiting-Robot.mp4" controls width="600"></video>
+
 ## Repository structure
 
 ```
@@ -17,7 +21,7 @@ Open-limb-robot/
 ├── simulation/
 │   ├── lib/                  # Shared geometry functions
 │   └── scripts/              # Runnable analysis scripts
-├── On-Limb Orbiting Robot.mp4
+├── media/                    # Demonstration video and funding logo
 ├── LICENSE
 └── README.md
 ```
@@ -70,6 +74,16 @@ If you use this code or design in your research, please cite the paper above. A 
 ## License
 
 Released under the [MIT License](LICENSE).
+
+## Funding
+
+<p align="center">
+  <img src="https://github.com/TaISLab/Open-limb-robot/raw/main/media/MICIU-Cofinanciado-AEI.jpg" alt="MICIU / AEI / FEDER" width="400">
+</p>
+
+<p align="center">
+This work is part of project PID2021-127221OB-I00 (CONCERTO — Control Colaborativo para Interacción física Empática entre RoboT y humanO), funded by MICIU/AEI/10.13039/501100011033/FEDER, UE.
+</p>
 
 ## Contact
 
